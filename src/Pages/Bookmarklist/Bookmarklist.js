@@ -25,6 +25,7 @@ const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 const Bookmarklist = () => {
   const [data, setData] = useState("");
   const [category, setCategory] = useState("");
+  const location=useLocation()
   const [flag, setFlag] = useState(0);
   const [subcategory, setSubCategory] = useState("");
   const [noduplicatecat, setNoDuplicatecat] = useState("");
@@ -57,12 +58,12 @@ const Bookmarklist = () => {
     navigate("/");
   }
   const handleDelete = (item) => {
-    console.log(item);
     // setLoading(true)
     axios.delete("https://quiz-backend-phi.vercel.app/question/" + item)
       .then((res) => {
         // setLoading(false)
-        window.location.reload();
+          navigate("/")
+        
       });
 
     // { loading && window.location.reload() }
@@ -156,12 +157,12 @@ const Bookmarklist = () => {
                       </div>
 
                       <div>
-                        <button
+                        <buttom
                           className="bookmark-btn"
                           onClick={() => handleDelete(dat._id)}
                         >
                           Delete This Question
-                        </button>
+                        </buttom>
                       </div>
                     </div>
                   );
