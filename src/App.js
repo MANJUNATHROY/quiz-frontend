@@ -59,11 +59,14 @@ function App() {
   };
   return (
     <div className="app">
-      <Navbar />
+   {/* <Router>
+     <Navbar />
+   </Router> */}
 
       <div className="main-app-container">
         <div className="main-container container-fluid">
           <Router>
+              
             <Routes>
               <Route
                 path="/"

@@ -11,6 +11,7 @@ import axios from "axios";
 // import { Link } from "react-router-dom"
 import "./Home.css";
 import { Category, CollectionsOutlined } from "@mui/icons-material";
+import Navbar from "../../Components/Navbar";
 
 const Home = ({ name, setName, fetchQuestions }) => {
   const navigate = useNavigate();
@@ -60,6 +61,7 @@ const Home = ({ name, setName, fetchQuestions }) => {
 
   return (
     <div className="content">
+      <Navbar/>
       <div className="settings">
         <div className="settings__select ">
           <div className=" start-quiz box-padding">
