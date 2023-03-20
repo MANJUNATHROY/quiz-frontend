@@ -14,10 +14,8 @@ const Navbar = () => {
   function navigatehome(){
     navigate("/")
   }
-  const navigateform=(e)=>{
-    console.log("Hello")
+  function navigateform(e){
     navigate("/form")
-    e.preventDefault();
   }
 
   function navigatebookmark(e){

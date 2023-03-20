@@ -61,7 +61,7 @@ const Home = ({ name, setName, fetchQuestions }) => {
 
   return (
     <div className="content">
-      <Navbar/>
+      <Navbar />
       <div className="settings">
         <div className="settings__select ">
           <div className=" start-quiz box-padding">
