@@ -1,0 +1,39 @@
+.result {
+  display: block;
+  margin-top: 100px;
+  margin-bottom: 15px;
+  border-style: none;
+  text-align: center;
+
+  line-height: 10px;
+  height: 100%;
+  width: 100%;
+  left: 0px;
+  background-position: 0% right;
+}
+
+.title {
+  font-size: 20px;
+  font-style: bold;
+  font-weight: 100%;
+}
+
+.bttn {
+  margin-top: 100px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  border-style: none;
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+  margin-bottom: 50%;
+}
+.bttn1 {
+  margin-top: 100px;
+  margin-bottom: 15px;
+  border-style: none;
+  border-bottom: 10px;
+  height: 40px;
+  width: 140px;
+  border-radius: 50px;
+}

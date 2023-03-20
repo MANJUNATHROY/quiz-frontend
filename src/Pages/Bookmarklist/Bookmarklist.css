@@ -1,0 +1,120 @@
+.main-booklist-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bookmarklist-dropdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+  background-color: #f7f5f4;
+  width: 80%;
+  border-radius: 5px;
+  flex-wrap: wrap;
+}
+
+.dropdown {
+  min-width: 200px !important;
+  margin: 20px !important;
+  border-radius: 50px !important;
+  /* width: 200px; */
+}
+
+.question-box {
+  background-color: #f7f5f4;
+  width: 80%;
+  margin: 5px;
+  border-radius: 5px;
+  padding: 30px 60px;
+}
+
+.ques,
+.corr-ans,
+.incorr-ans {
+  background-color: white;
+  margin: 5px;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+.corr-ans,
+.incorr-ans {
+  max-width: 90%;
+}
+
+.corr-ans {
+  background-color: #99cd53;
+}
+
+.bookmark-btn {
+  background: rgb(210, 0, 26);
+  background: linear-gradient(
+    90deg,
+    rgba(210, 0, 26, 1) 0%,
+    rgba(253, 29, 29, 1) 100%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  border-radius: 5px;
+  border-width: 0;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 10px 12px;
+  text-align: center;
+  transition: all 200ms;
+  vertical-align: baseline;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin: 5px;
+}
+
+.bookmark-btn:hover {
+  background: rgba(210, 0, 26, 1);
+  color: white;
+}
+
+/* p {
+  text-align: center;
+} */
+
+.home-btn {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.go-to-home {
+  border-radius: 5px;
+  border-width: 0;
+  background-color: #f7f5f4;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 10px 12px;
+  text-align: center;
+  transition: all 200ms;
+  vertical-align: baseline;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin: 5px;
+}
+
+.go-to-home:hover {
+  background-color: #11406e;
+  color: white;
+}
